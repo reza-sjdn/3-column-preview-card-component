@@ -45,8 +45,13 @@ Mobile View
 
 ### What I learned
 
-Set a border to a button even as the same color as the button background!
-This way you control some odd behaviour when hovering.
+-Set a border to a button even as the same color as the button background!
+ This way you control some odd behaviour when hovering.
+
+-Check the responsibility always in a slow transition!
+
+-<h1> is the main header and there must be just one <h1> element
+ in the whole page. for this project use <h2> for headers.
 
 ### Continued development
 

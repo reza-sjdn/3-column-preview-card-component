@@ -29,6 +29,7 @@ body {
 }
 
 .container {
+    max-width: 914px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -107,7 +108,7 @@ button {
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     body {
         padding: 0;
         margin: 0;
@@ -115,7 +116,7 @@ button {
 
     .container {
         flex-direction: row;
-        width: 850px;
+        max-width: 850px;
         height: 480px;
     }
 
@@ -152,17 +153,20 @@ button {
         color: var(--light-gray);
         border: 2px solid var(--light-gray);
         background-color: var(--bright-orange);
+        cursor: pointer;
     }
 
     .blue-card button:hover {
         color: var(--light-gray);
         border: 2px solid var(--light-gray);
         background-color: var(--dark-cyan);
+        cursor: pointer;
     }
 
     .green-card button:hover {
         color: var(--light-gray);
         border: 2px solid var(--light-gray);
         background-color: var(--very-dark-cyan);
+        cursor: pointer;
     }
 }
